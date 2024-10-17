@@ -13,7 +13,7 @@ pip install maturin
 apt install -y cmake
 pip install pyzmq
 
-_file="$(find $PREFIX/lib/python3.11 -name "_sysconfigdata*.py")"
+_file="$(find $PREFIX/lib/python3.12 -name "_sysconfigdata*.py")"
 rm -rf $PREFIX/lib/python3.12/__pycache__
 cp "$_file" "$_file".backup
 sed -i 's|-fno-openmp-implicit-rpath||g' "$_file"
