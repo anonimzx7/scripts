@@ -1,5 +1,7 @@
 # scripts
 
+Install Jupyter in termux android
+
 Copy and paste to your termux
 
 curl -O https://raw.githubusercontent.com/anonimzx7/scripts/refs/heads/main/setup_termux.sh && bash setup_termux.sh
